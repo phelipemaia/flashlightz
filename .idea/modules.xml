@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Flashlightz/Flashlightz.iml" filepath="$PROJECT_DIR$/Flashlightz/Flashlightz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flashlightz.iml" filepath="$PROJECT_DIR$/flashlightz.iml" />
+    </modules>
+  </component>
+</project>
+
