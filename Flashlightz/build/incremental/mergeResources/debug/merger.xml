@@ -106,6 +106,8 @@
             <file
                 path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values/dimens.xml"
                 qualifiers="" >
+                <dimen name="adWidth" >320dp
+                </dimen>
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
                 <dimen name="activity_vertical_margin" >16dp
