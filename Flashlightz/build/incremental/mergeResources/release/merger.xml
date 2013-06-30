@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="lamp"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-hdpi/lamp.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="off"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-hdpi/off.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="on"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-hdpi/on.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="lamp"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-mdpi/lamp.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="off"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-mdpi/off.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="on"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-mdpi/on.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="lamp"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xhdpi/lamp.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="off"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xhdpi/off.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="on"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xhdpi/on.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="lamp"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xxhdpi/lamp.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="off"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xxhdpi/off.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="on"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/drawable-xxhdpi/on.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="off"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/raw/off.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="on"
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/raw/on.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="button" >80dp
+                </dimen>
+                <dimen name="buttonBottom" >10dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values/ids.xml"
+                qualifiers="" >
+                <item
+                    name="onOffButton"
+                    type="id">
+onOffButton
+                </item>
+                <item
+                    name="mainLayout"
+                    type="id">
+mainLayout
+                </item>
+            </file>
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Flashlightz
+                </string>
+                <string name="lamp" >lamp
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="onOff" >onOff
+                </string>
+            </file>
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/build/res/rs/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/Phelipe/Organizer/workspace/android/flashlightz/Flashlightz/src/release/res" />
+    </dataSet>
+
+</merger>

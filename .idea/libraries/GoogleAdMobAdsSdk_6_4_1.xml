@@ -2,6 +2,8 @@
   <library name="GoogleAdMobAdsSdk-6.4.1">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Flashlightz/libs/GoogleAdMobAdsSdk-6.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Flashlightz/libs/GoogleAdMobAdsSdk-6.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Flashlightz/libs/GoogleAdMobAdsSdk-6.4.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

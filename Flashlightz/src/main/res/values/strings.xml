@@ -4,5 +4,7 @@
     <string name="app_name">Flashlightz</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="onOff">onOff</string>
+    <string name="lamp">lamp</string>
 
 </resources>

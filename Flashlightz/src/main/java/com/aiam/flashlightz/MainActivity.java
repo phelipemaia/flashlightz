@@ -8,37 +8,38 @@ import android.app.Activity;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import com.aiam.flashlightz.R;
 
 import com.google.ads.*;
 
 import com.aiam.controller.Flashlight;
+import com.google.ads.mediation.admob.AdMobAdapterExtras;
 
 public class MainActivity extends Activity {
 
     private Camera camera;
-    private AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        adView = new AdView(this, AdSize.BANNER, "123");
         setContentView(R.layout.activity_main);
         View mOnOffButtonView = findViewById(R.id.onOffButton);
         Context context = this;
         PackageManager pm = context.getPackageManager();
 
         Flashlight fl;
-        LinearLayout layout = (LinearLayout)findViewById(R.id.mainLayout);
-        layout.addView(adView);
-        adView.loadAd(new AdRequest());
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdRequest ar = new AdRequest();
+        adView.loadAd(ar);
 
         // if device support camera?
         if (!pm.hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
             Log.e("err", "Device has no camera!");
-            fl = new Flashlight(mOnOffButtonView);
+            fl = new Flashlight(this, mOnOffButtonView);
         } else {
             camera = Camera.open();
-            fl = new Flashlight(mOnOffButtonView, camera);
+            fl = new Flashlight(this, mOnOffButtonView, camera);
         }
 
         fl.attachEvents();
@@ -46,11 +47,11 @@ public class MainActivity extends Activity {
     }
 
     @Override
-    public void onDestroy() {
-        if (adView != null) {
-            adView.destroy();
+    protected void onStop() {
+        super.onStop();
+
+        if (camera != null) {
+            camera.release();
         }
-        super.onDestroy();
     }
-    
 }
