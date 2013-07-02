@@ -33,33 +33,6 @@ public class MainActivity extends Activity {
         AdRequest ar = new AdRequest();
         adView.loadAd(ar);
 
-        adView.setAdListener(new AdListener() {
-            @Override
-            public void onFailedToReceiveAd(Ad ad, AdRequest.ErrorCode error) {
-                System.err.println("Ad failed: " + ad.toString() + error.toString());
-            }
-
-            @Override
-            public void onPresentScreen(Ad ad) {
-                System.err.println("Ad showing: " + ad.toString());
-            }
-
-            @Override
-            public void onDismissScreen(Ad ad) {
-
-            }
-
-            @Override
-            public void onLeaveApplication(Ad ad) {
-
-            }
-
-            @Override
-            public void onReceiveAd(Ad ad) {
-                System.out.println("Ad received: " + ad.toString());
-            }
-        });
-
         // if device support camera?
         if (!pm.hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
             Log.e("err", "Device has no camera!");
@@ -71,14 +44,5 @@ public class MainActivity extends Activity {
 
         fl.attachEvents();
 
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-
-        if (camera != null) {
-            camera.release();
-        }
     }
 }
